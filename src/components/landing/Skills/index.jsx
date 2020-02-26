@@ -11,14 +11,47 @@ export const Skills = () => (
         <img src={dev} alt="I’m John and I’m a Backend & Devops engineer!" />
       </Thumbnail>
       <Details>
-        <h1>Hi There!</h1>
+        <h1>Habilidades</h1>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry’s standard dummy.
+          Tenho um mindset de trabalho em equipe, costumo sempre me posicionar tendo em vista o crescimento da equipe e da solução.
         </p>
-        <Button as={AnchorLink} href="#contact">
-          Hire me
-        </Button>
+        <p>Algumas das minhas habilidades: </p>
+        
+        <div style={{color: '#707070'}}>
+          <ul style={{display: 'inline-block', paddingInlineEnd: '5px'}}>
+            <h4>Management Skills</h4>
+            <li>Filosofia Ágil</li>
+            <li>Scrum</li>
+            <li>Kanbam</li>
+            <li>Jira</li>
+          </ul>
+          <ul style={{display: 'inline-block', paddingInlineEnd: '5px'}}>
+            <h4>Front-End Skills</h4>
+            <li>JavaScript</li>
+            <li>HTLM</li>
+            <li>SASS</li>
+            <li>React.js</li>
+          </ul>
+          <ul style={{display: 'inline-block', paddingInlineEnd: '5px'}}>
+            <h4>Back-End Skills</h4>
+            <li>SQL</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>Knex.js</li>
+          </ul>
+          <ul style={{display: 'inline-block', paddingInlineEnd: '5px'}}>
+            <h4>Others Skills</h4>
+            <li>Amazon Web Services</li>
+            <li>Git e GitFlow</li>
+            <li>Heroku</li>
+            <li>Linux</li>
+          </ul>
+        </div>
+        <div>
+          <Button as={AnchorLink} href="#contact">
+            Contate-me
+          </Button>
+        </div>
       </Details>
     </SkillsWrapper>
   </Wrapper>

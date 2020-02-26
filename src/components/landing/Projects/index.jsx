@@ -18,7 +18,7 @@ export const Projects = () => {
         github {
           viewer {
             repositories(
-              first: 8
+              first: 6
               orderBy: { field: STARGAZERS, direction: DESC }
             ) {
               edges {
@@ -41,7 +41,7 @@ export const Projects = () => {
   )
   return (
     <Wrapper as={Container} id="projects">
-      <h2>Projects</h2>
+      <h2>Projetos</h2>
       <Grid>
         {edges.map(({ node }) => (
           <Item
