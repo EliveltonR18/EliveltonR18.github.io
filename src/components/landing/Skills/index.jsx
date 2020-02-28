@@ -41,9 +41,9 @@ export const Skills = () => (
           </ul>
           <ul style={{display: 'inline-block'}}>
             <h4>Outras</h4>
+            <li>React Native</li>
             <li>Amazon Web Services</li>
             <li>Git e GitFlow</li>
-            <li>Heroku</li>
             <li>Linux</li>
           </ul>
         </div>

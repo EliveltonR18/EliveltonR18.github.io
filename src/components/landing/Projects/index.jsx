@@ -6,6 +6,7 @@ import forkIcon from 'assets/icons/fork.svg'
 import { Wrapper, Grid, Item, Content, Stats } from './styles'
 
 export const Projects = () => {
+  const names = []
   const {
     github: {
       viewer: {
@@ -18,8 +19,9 @@ export const Projects = () => {
         github {
           viewer {
             repositories(
-              first: 6
-              orderBy: { field: STARGAZERS, direction: DESC }
+              first: 9
+              orderBy: { field: PUSHED_AT, direction: DESC},
+              privacy: PUBLIC,
             ) {
               edges {
                 node {
