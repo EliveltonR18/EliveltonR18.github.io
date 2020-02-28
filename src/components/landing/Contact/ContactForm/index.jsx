@@ -106,12 +106,10 @@ export default withFormik({
 			recaptcha: Yup.string().required('Robôs não são ben-vindos aqui!'),
 		}),
 	handleSubmit: async (
-		e,
 		{ name, email, message, recaptcha },
 		{ setSubmitting, resetForm, setFieldValue }
 	) => {
 		try {
-			e.preventDefault();
 			const encode = data => {
 				return Object.keys(data)
 					.map(
