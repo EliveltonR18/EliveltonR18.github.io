@@ -98,12 +98,12 @@ export default withFormik({
 	}),
 	validationSchema: () =>
 		Yup.object().shape({
-			name: Yup.string().required('Full name field is required'),
+			name: Yup.string().required('Nome completo é um campo requerido.'),
 			email: Yup.string()
-				.email('Invalid email')
-				.required('Email field is required'),
-			message: Yup.string().required('Message field is required'),
-			recaptcha: Yup.string().required('Robots are not welcome yet!'),
+				.email('email inválido!')
+				.required('Email é um campo requerido.'),
+			message: Yup.string().required('Messagem é um campo requerido.'),
+			recaptcha: Yup.string().required('Robôs não são ben-vindos aqui!'),
 		}),
 	handleSubmit: async (
 		{ name, email, message, recaptcha },
@@ -117,7 +117,7 @@ export default withFormik({
 					)
 					.join('&')
 			}
-			await fetch('/', {
+			await fetch('/contact/?no-cache=1', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
 				body: encode({
@@ -134,7 +134,7 @@ export default withFormik({
 		} catch (err) {
 			setSubmitting(false)
 			setFieldValue('success', false)
-			alert('Something went wrong, please try again!') // eslint-disable-line
+			alert('Algo deu errado, tente novamente mais tarde!') // eslint-disable-line
 		}
 	},
 })(ContactForm)

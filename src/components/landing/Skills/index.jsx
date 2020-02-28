@@ -19,7 +19,7 @@ export const Skills = () => (
         
         <div style={{color: '#707070'}}>
           <ul style={{display: 'inline-block', paddingInlineEnd: '15px'}}>
-            <h4>Management</h4>
+            <h4>Gestão</h4>
             <li>Filosofia Ágil</li>
             <li>Scrum</li>
             <li>Kanbam</li>
