@@ -1,26 +1,30 @@
 [
   {
     "id": 0,
-    "name": "Telegram",
-    "link": "https://t.me/eli_rlima",
-    "icon": "/icons/telegram.svg"
+    "name": "Github",
+    "link": "https://github.com/EliveltonR18",
+    "icon": "/icons/github.svg",
+    "style": { "paddingRight": "10px" }
   },
   {
     "id": 1,
-    "name": "Github",
-    "link": "https://github.com/EliveltonR18",
-    "icon": "/icons/github.svg"
+    "name": "Linkedin",
+    "link": "https://www.linkedin.com/in/elirlima/",
+    "icon": "/icons/linkedin.svg",
+    "style": {}
   },
   {
     "id": 2,
-    "name": "StackOverflow",
-    "link": "https://pt.stackoverflow.com/users/147924/elivelton-rodrigues",
-    "icon": "/icons/stackoverflow.svg"
+    "name": "Medium",
+    "link": "https://medium.com/@eli_rlima",
+    "icon": "/icons/medium.svg",
+    "style": { "paddingRight": "10px", "marginTop": "8px" }
   },
   {
     "id": 3,
-    "name": "Twitter",
-    "link": "https://twitter.com/eli_rlima",
-    "icon": "/icons/twitter.svg"
+    "name": "Telegram",
+    "link": "https://t.me/eli_rlima",
+    "icon": "/icons/telegram.svg",
+    "style": { "paddingRight": "10px" }
   }
 ]
