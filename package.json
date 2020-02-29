@@ -19,8 +19,9 @@
     "gatsby-plugin-sharp": "^2.2.13",
     "gatsby-plugin-sitemap": "^2.0.3",
     "gatsby-plugin-styled-components": "^3.0.4",
-    "gatsby-source-filesystem": "^2.1.35",
+    "gatsby-source-filesystem": "^2.1.48",
     "gatsby-source-graphql": "^2.1.21",
+    "gatsby-transformer-remark": "^2.6.53",
     "gatsby-transformer-sharp": "^2.2.7",
     "prop-types": "^15.6.2",
     "react": "^16.13.0",
@@ -44,7 +45,7 @@
     "lint:fix": "eslint . --fix",
     "reset": "rm -rf .cache/ public/",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
-    "deploy": "gatsby build && ./node_modules/.bin/gh-pages -d public"
+    "deploy": "gatsby build && ./node_modules/.bin/gh-pages -b master -d public"
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",

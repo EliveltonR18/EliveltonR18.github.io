@@ -28,6 +28,13 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'pages',
+        path: `${__dirname}/src/pages`,
+      }
+    },
+    {
       resolve: 'gatsby-plugin-nprogress',
       options: {
         color: config.themeColor,
@@ -69,6 +76,20 @@ module.exports = {
         theme_color: config.themeColor,
         display: 'minimal-ui',
         icon: './static/favicon/favicon-512.png',
+      },
+    },
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        commonmark: true,
+        // Footnotes mode (default: true)
+        footnotes: true,
+        // Pedantic mode (default: true)
+        pedantic: true,
+        // GitHub Flavored Markdown mode (default: true)
+        gfm: true,
+        // Plugins configs
+        plugins: [],
       },
     },
     'gatsby-plugin-offline',
