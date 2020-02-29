@@ -29,7 +29,7 @@ export const Details = styled.div`
   }
 
   h1 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
     font-size: 36pt;
     color: #212121;
 
@@ -39,13 +39,32 @@ export const Details = styled.div`
   }
 
   h4 {
-    margin-bottom: 4rem;
+    margin-bottom: 1.5rem;
     font-size: 24pt;
     font-weight: normal;
     color: #707070;
 
     @media (max-width: 680px) {
       font-size: 22pt;
+    }
+  }
+`;
+
+export const Links = styled.div`
+  display: flex;
+  align-items: center;
+  padding-bottom: 4rem;
+
+  a {
+    margin: 0 0.5rem;
+
+    img {
+      margin: 0;
+    }
+
+    &:first-child,
+    &:last-child {
+      margin: 0;
     }
   }
 `;

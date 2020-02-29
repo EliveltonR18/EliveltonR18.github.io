@@ -1,0 +1,16 @@
+[
+  {
+    "id": 0,
+    "name": "Github",
+    "link": "https://github.com/EliveltonR18",
+    "icon": "/icons/github-intro.svg",
+    "style": { "paddingRight": "20px" }
+  },
+  {
+    "id": 1,
+    "name": "Linkedin",
+    "link": "https://www.linkedin.com/in/elirlima/",
+    "icon": "/icons/linkedin-intro.svg",
+    "style": {}
+  }
+]

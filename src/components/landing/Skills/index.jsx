@@ -18,21 +18,21 @@ export const Skills = () => (
         <p>Algumas das minhas habilidades: </p>
         
         <div style={{color: '#707070'}}>
-          <ul style={{display: 'inline-block', paddingInlineEnd: '15px'}}>
+          <ul style={{display: 'inline-block', paddingInlineEnd: '10px'}}>
             <h4>Gestão</h4>
             <li>Filosofia Ágil</li>
             <li>Scrum</li>
             <li>Kanbam</li>
             <li>Jira</li>
           </ul>
-          <ul style={{display: 'inline-block', paddingInlineEnd: '15px'}}>
+          <ul style={{display: 'inline-block', paddingInlineEnd: '10px'}}>
             <h4>Front-End</h4>
             <li>JavaScript</li>
             <li>HTLM</li>
             <li>SASS</li>
             <li>React.js</li>
           </ul>
-          <ul style={{display: 'inline-block', paddingInlineEnd: '15px'}}>
+          <ul style={{display: 'inline-block', paddingInlineEnd: '10px'}}>
             <h4>Back-End</h4>
             <li>SQL</li>
             <li>Node.js</li>
