@@ -24,7 +24,7 @@ export const Item = styled.div`
   width: 100%;  
   height: 100%;
   overflow: hidden;
-  box-shadow: 0 1px 8px 0 #6c63ff80;
+  box-shadow: 0 1px 7px 0 #6c63ff40;
 
   h4 {
     color: #212121;

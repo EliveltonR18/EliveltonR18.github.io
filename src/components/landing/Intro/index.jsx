@@ -13,7 +13,7 @@ export const Intro = () => (
 				<h1>Olá!</h1>
 				<h4>Sou Elivelton Rodrigues, um Software Engineer</h4>
 				<Button as={AnchorLink} href="#contact">
-					Contate-me
+					Contato
 				</Button>
 			</Details>
 			<Thumbnail>

@@ -13,7 +13,7 @@ export const Skills = () => (
       <Details>
         <h1>Habilidades</h1>
         <p>
-          Tenho um mindset de trabalho em equipe, costumo sempre me posicionar tendo em vista o crescimento da equipe e da solução.
+          Tenho um mindset ágil, costumo sempre me posicionar, dando feedbacks e fazendo alinhamentos.
         </p>
         <p>Algumas das minhas habilidades: </p>
         
@@ -49,7 +49,7 @@ export const Skills = () => (
         </div>
         <div style={{paddingTop: '15px'}}>
           <Button as={AnchorLink} href="#contact">
-            Contate-me
+            Contato
           </Button>
         </div>
       </Details>

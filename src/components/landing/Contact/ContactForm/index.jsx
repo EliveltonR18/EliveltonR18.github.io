@@ -74,8 +74,7 @@ const ContactForm = ({
 			<InputField>
 				<Center>
 					<h4>
-						Your message has been successfully sent, I will get back to you
-						ASAP!
+						Mensagem enviada com sucesso! O formulário será limpo em instantes.
 					</h4>
 				</Center>
 			</InputField>
@@ -102,7 +101,7 @@ export default withFormik({
 			email: Yup.string()
 				.email('email inválido!')
 				.required('Email é um campo requerido.'),
-			message: Yup.string().required('Messagem é um campo requerido.'),
+			message: Yup.string().required('Mensagem é um campo requerido.'),
 			recaptcha: Yup.string().required('Robôs não são ben-vindos aqui!'),
 		}),
 	handleSubmit: async (

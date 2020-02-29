@@ -29,7 +29,7 @@ export const Details = styled.div`
   }
 
   h1 {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     font-size: 36pt;
     color: #212121;
 
@@ -39,13 +39,13 @@ export const Details = styled.div`
   }
 
   h4 {
-    margin-bottom: 2.5rem;
-    font-size: 32pt;
+    margin-bottom: 4rem;
+    font-size: 24pt;
     font-weight: normal;
     color: #707070;
 
     @media (max-width: 680px) {
-      font-size: 26pt;
+      font-size: 22pt;
     }
   }
 `;
