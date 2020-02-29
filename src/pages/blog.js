@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql, StaticQuery } from 'gatsby';
 import { Layout, SEO } from 'components/common';
+import { Header } from '../components/theme';
 
 const postQuery = graphql`
   {
@@ -23,6 +24,7 @@ const postQuery = graphql`
 
 export default () => (
   <Layout>
+    <Header />
     <SEO />
     <h1>Blog</h1>
     <StaticQuery query={postQuery} render={data => {
