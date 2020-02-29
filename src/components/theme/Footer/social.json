@@ -3,28 +3,28 @@
     "id": 0,
     "name": "Github",
     "link": "https://github.com/EliveltonR18",
-    "icon": "/icons/footer/github.svg",
+    "icon": "/icons/github.svg",
     "style": { "paddingRight": "10px" }
   },
   {
     "id": 1,
     "name": "Linkedin",
     "link": "https://www.linkedin.com/in/elirlima/",
-    "icon": "/icons/footer/linkedin.svg",
+    "icon": "/icons/linkedin.svg",
     "style": {}
   },
   {
     "id": 2,
     "name": "Medium",
     "link": "https://medium.com/@eli_rlima",
-    "icon": "/icons/footer/medium.svg",
+    "icon": "/icons/medium.svg",
     "style": { "paddingRight": "10px", "marginTop": "8px" }
   },
   {
     "id": 3,
     "name": "Telegram",
     "link": "https://t.me/eli_rlima",
-    "icon": "/icons/footer/telegram.svg",
+    "icon": "/icons/telegram.svg",
     "style": { "paddingRight": "10px" }
   }
 ]
