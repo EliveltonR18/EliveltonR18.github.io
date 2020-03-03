@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Thumbnail = styled.div`
   flex: 1;
   @media (max-width: 960px) {
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
     width: 100%;
   }

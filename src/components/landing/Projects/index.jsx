@@ -6,7 +6,6 @@ import forkIcon from 'assets/icons/fork.svg'
 import { Wrapper, Grid, Item, Content, Stats } from './styles'
 
 export const Projects = () => {
-  const names = []
   const {
     github: {
       viewer: {

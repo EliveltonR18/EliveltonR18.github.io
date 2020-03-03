@@ -13,7 +13,7 @@ export const Intro = () => (
 			<Details>
 				<h1>Olá!</h1>
 				<h4>Sou Elivelton Rodrigues, um Software Engineer</h4>
-				<Links>
+				{/* <Links>
 					{social.map(({ id, name, link, icon, style }) => (
 						<a
 							key={id}
@@ -25,7 +25,7 @@ export const Intro = () => (
 							<img width="30" style={style} src={icon} alt={name} />
 						</a>
 					))}
-				</Links>
+				</Links> */}
 				<Button as={AnchorLink} href="#contact">
 					Contato
 				</Button>
