@@ -1,8 +1,8 @@
-import React from 'react'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
-import { Container, Button } from 'components/common'
-import dev from 'assets/illustrations/skills1.svg'
-import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles'
+import React from 'react';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { Container, Button } from 'components/common';
+import dev from 'assets/illustrations/skills1.svg';
+import { Wrapper, SkillsWrapper, Details, Thumbnail } from './styles';
 
 export const Skills = () => (
   <Wrapper id="about">
@@ -13,41 +13,41 @@ export const Skills = () => (
       <Details>
         <h1>Habilidades</h1>
         <p>
-          Tenho um mindset ágil, costumo sempre me posicionar, dando feedbacks e fazendo alinhamentos.
+          Me considero alguém com uma ótima comunicação e um excelente engajamento para trabalhos em equipe. Amo o que
+          faço.
         </p>
         <p>Algumas das minhas habilidades: </p>
-        
-        <div style={{color: '#707070'}}>
-          <ul style={{display: 'inline-block', paddingInlineEnd: '10px'}}>
+
+        <div style={{ color: '#707070', display: 'flex' }}>
+          <ul style={{ display: 'inline-block', paddingInlineEnd: '10px' }}>
             <h4>Gestão</h4>
-            <li>Filosofia Ágil</li>
             <li>Scrum</li>
             <li>Kanbam</li>
             <li>Jira</li>
           </ul>
-          <ul style={{display: 'inline-block', paddingInlineEnd: '10px'}}>
+          <ul style={{ display: 'inline-block', paddingInlineEnd: '10px' }}>
             <h4>Front-End</h4>
             <li>JavaScript</li>
             <li>HTLM</li>
             <li>SASS</li>
             <li>React.js</li>
+            <li>React Native</li>
           </ul>
-          <ul style={{display: 'inline-block', paddingInlineEnd: '10px'}}>
+          <ul style={{ display: 'inline-block', paddingInlineEnd: '10px' }}>
             <h4>Back-End</h4>
             <li>SQL</li>
             <li>Node.js</li>
             <li>Express.js</li>
             <li>Knex.js</li>
           </ul>
-          <ul style={{display: 'inline-block'}}>
+          <ul style={{ display: 'inline-block' }}>
             <h4>Outras</h4>
-            <li>React Native</li>
             <li>Amazon Web Services</li>
             <li>Git e GitFlow</li>
             <li>Linux</li>
           </ul>
         </div>
-        <div style={{paddingTop: '15px'}}>
+        <div style={{ paddingTop: '15px' }}>
           <Button as={AnchorLink} href="#contact">
             Contato
           </Button>
@@ -55,4 +55,4 @@ export const Skills = () => (
       </Details>
     </SkillsWrapper>
   </Wrapper>
-)
+);

@@ -20,12 +20,12 @@ export const Text = styled.div`
   flex: 1;
 
   @media (max-width: 960px) {
-      font-size: 20pt;
-      color: #707070;
-      width: 40%;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
+    font-size: 20pt;
+    color: #707070;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   span {

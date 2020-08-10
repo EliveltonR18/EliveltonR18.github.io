@@ -32,7 +32,7 @@ module.exports = {
       options: {
         name: 'pages',
         path: `${__dirname}/src/pages`,
-      }
+      },
     },
     {
       resolve: 'gatsby-plugin-nprogress',
