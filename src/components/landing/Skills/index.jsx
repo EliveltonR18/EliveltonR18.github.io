@@ -8,30 +8,28 @@ export const Skills = () => (
   <Wrapper id="about">
     <SkillsWrapper as={Container}>
       <Thumbnail>
-        <img src={dev} alt="Elivelton, um software engineer" />
+        <img src={dev} alt="A boy seeing a portfolio" />
       </Thumbnail>
       <Details>
-        <h1>Habilidades</h1>
+        <h1>Skills</h1>
         <p>
-          Me considero alguém com uma ótima comunicação e um excelente engajamento para trabalhos em equipe. Amo o que
-          faço.
+          I have a good communication and soft skills. I always was recognized as a integration agent in teams by my leaders.
         </p>
-        <p>Algumas das minhas habilidades: </p>
-
         <div style={{ color: '#707070', display: 'flex' }}>
           <ul style={{ display: 'inline-block', paddingInlineEnd: '10px' }}>
-            <h4>Gestão</h4>
+            <h4>Management</h4>
             <li>Scrum</li>
             <li>Kanbam</li>
             <li>Jira</li>
           </ul>
           <ul style={{ display: 'inline-block', paddingInlineEnd: '10px' }}>
             <h4>Front-End</h4>
-            <li>JavaScript</li>
-            <li>HTLM</li>
-            <li>SASS</li>
-            <li>React.js</li>
+            <li>React</li>
+            <li>React Testing Library</li>
             <li>React Native</li>
+            <li>SASS</li>
+            <li>Cypress</li>
+            <li>Jest</li>
           </ul>
           <ul style={{ display: 'inline-block', paddingInlineEnd: '10px' }}>
             <h4>Back-End</h4>
@@ -41,7 +39,7 @@ export const Skills = () => (
             <li>Knex.js</li>
           </ul>
           <ul style={{ display: 'inline-block' }}>
-            <h4>Outras</h4>
+            <h4>Others</h4>
             <li>Amazon Web Services</li>
             <li>Git e GitFlow</li>
             <li>Linux</li>

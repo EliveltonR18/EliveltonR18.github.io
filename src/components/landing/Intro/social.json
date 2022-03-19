@@ -4,13 +4,20 @@
     "name": "Github",
     "link": "https://github.com/EliveltonR18",
     "icon": "/icons/github-intro.svg",
-    "style": { "paddingRight": "20px" }
+    "style": {}
   },
   {
     "id": 1,
-    "name": "Linkedin",
+    "name": "LinkedIn",
     "link": "https://www.linkedin.com/in/elirlima/",
     "icon": "/icons/linkedin-intro.svg",
     "style": {}
+  },
+  {
+    "id": 2,
+    "name": "Medium",
+    "link": "https://medium.com/@eli_rlima",
+    "icon": "/icons/medium-intro.svg",
+    "style": { "paddingTop": "2px" }
   }
 ]

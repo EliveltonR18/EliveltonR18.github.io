@@ -21,7 +21,7 @@ const ContactForm = ({ setFieldValue, isSubmitting, values, errors, touched }) =
         name="name"
         component="input"
         aria-label="name"
-        placeholder="Nome Completo*"
+        placeholder="Name*"
         error={touched.name && errors.name}
       />
       <ErrorMessage component={Error} name="name" />
@@ -34,7 +34,7 @@ const ContactForm = ({ setFieldValue, isSubmitting, values, errors, touched }) =
         as={FastField}
         type="email"
         name="email"
-        placeholder="Email*"
+        placeholder="E-mail*"
         error={touched.email && errors.email}
       />
       <ErrorMessage component={Error} name="email" />
@@ -48,7 +48,7 @@ const ContactForm = ({ setFieldValue, isSubmitting, values, errors, touched }) =
         rows="8"
         type="text"
         name="message"
-        placeholder="Menssagem*"
+        placeholder="Message*"
         error={touched.message && errors.message}
       />
       <ErrorMessage component={Error} name="message" />
@@ -67,13 +67,13 @@ const ContactForm = ({ setFieldValue, isSubmitting, values, errors, touched }) =
     {values.success && (
       <InputField>
         <Center>
-          <h4>Mensagem enviada com sucesso! O formulário será limpo em instantes.</h4>
+          <h4>Message sended with success! The form will be cleared in instants.</h4>
         </Center>
       </InputField>
     )}
     <Center>
       <Button secondary type="submit" disabled={isSubmitting}>
-        Enviar
+        Send
       </Button>
     </Center>
   </Form>
@@ -119,7 +119,7 @@ export default withFormik({
     } catch (err) {
       setSubmitting(false);
       setFieldValue('success', false);
-			alert('Algo deu errado, tente novamente mais tarde!') // eslint-disable-line
+			alert('Something wrong! Try again later') // eslint-disable-line
     }
   },
 })(ContactForm);

@@ -4,10 +4,10 @@ import { Link } from 'gatsby'
 
 const NavbarLinks = ({ desktop }) => (
 	<Wrapper desktop={desktop}>
-		<Link to="/#about">Sobre</Link>
+		<Link to="/#about">About</Link>
 		{/* <Link to="/blog">Blog</Link> */}
-		<Link to="/#projects">Projetos</Link>
-		<Link to="/#contact">Contato</Link>
+		<Link to="/#projects">Projects</Link>
+		<Link to="/#contact">Contact</Link>
 	</Wrapper>
 )
 

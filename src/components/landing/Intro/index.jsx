@@ -11,11 +11,13 @@ export const Intro = () => (
 		<Header />
 		<IntroWrapper as={Container}>
 			<Details>
-				<h1>Olá!</h1>
-				<h4>Sou Elivelton Rodrigues, um Software Engineer</h4>
-				{/* <Links>
+				<h1>Hello!</h1>
+				<h4>I'm Elivelton, a Software Engineer</h4>
+				<Links>
+				<div style={{ display: "flex", flexDirection: "row", justifyContent: "flex-start", width: "200px" }}>
 					{social.map(({ id, name, link, icon, style }) => (
 						<a
+							style={{display: "flex", justifyContent: "center", alignItems: 'baseline', paddingRight: "20px"}}
 							key={id}
 							href={link}
 							target="_blank"
@@ -25,13 +27,14 @@ export const Intro = () => (
 							<img width="30" style={style} src={icon} alt={name} />
 						</a>
 					))}
-				</Links> */}
-				<Button as={AnchorLink} href="#contact">
+				</div>
+				</Links>
+				{/* <Button as={AnchorLink} href="#contact">
 					Contato
-				</Button>
+				</Button> */}
 			</Details>
 			<Thumbnail>
-				<img src={dev} alt="Sou Elivelton Rodrigues, um Software Engineer" />
+				<img src={dev} alt="A boy on a computer" />
 			</Thumbnail>
 		</IntroWrapper>
 	</Wrapper>
